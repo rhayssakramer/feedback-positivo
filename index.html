@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo, <span id="userName"></span>!</h1>
+    </header>
+    <main>
+        <section id="userInfo">
+            <h2>Seus Dados:</h2>
+            <p><strong>Nome:</strong> <span id="userFullName"></span></p>
+            <p><strong>E-mail:</strong> <span id="userEmail"></span></p>
+        </section>
+
+        <section id="companies">
+            <h2>Empresas</h2>
+            <div class="company-card" onclick="openFeedbackMenu('Empresa 1')">
+                <h3>Empresa 1</h3>
+                <p>Descrição breve da empresa.</p>
+            </div>
+            <div class="company-card" onclick="openFeedbackMenu('Empresa 2')">
+                <h3>Empresa 2</h3>
+                <p>Descrição breve da empresa.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Menu de Feedback -->
+    <div id="feedbackMenu" class="hidden">
+        <div class="menu-content">
+            <h2 id="feedbackTitle">Enviar Feedback</h2>
+            <form id="feedbackForm">
+                <label for="feedback">Seu Feedback:</label>
+                <textarea id="feedback" required></textarea>
+                <button type="submit">Enviar</button>
+                <button type="button" onclick="closeFeedbackMenu()">Cancelar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
