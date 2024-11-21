@@ -14,7 +14,11 @@ body {
   }
 
   .button{
-    list-style: none;
+    outline: none;
+  }
+
+  .button:focus { 
+    outline: none; 
   }
   
   #form-container {

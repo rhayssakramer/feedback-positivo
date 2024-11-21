@@ -20,8 +20,6 @@ body {
   }
   
   .btn-primary {
-    border: none;
-    list-style: none;
     transition: all 0.3s ease-in-out;
   }
 
