@@ -35,3 +35,7 @@ body {
   a:hover {
     text-decoration: underline;
   }
+
+  .margin-positivo{
+    margin-bottom: -0.5rem;
+  }
