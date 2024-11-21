@@ -21,11 +21,12 @@ body {
   
   .btn-primary {
     border: none;
+    list-style: none;
     transition: all 0.3s ease-in-out;
   }
 
   .btn-primary:hover {
-    background: #0056b3;
+    background: #676767;
   }
   
   a {

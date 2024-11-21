@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #00D0FF, #81FADA); /* Gradiente aplicado diretamente */
+  height: 100vh; /* Faz o background ocupar toda a altura da tela */
+  display: flex; /* Para centralizar o conteúdo */
+  justify-content: center; 
+  align-items: center;
+  }
+
+  .margin-negativo{
+    margin-top: -1rem;
+  }
+
+  .button{
+    list-style: none;
+  }
+  
+  #form-container {
+    background: #EFEFEF;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  #form-container img {
+    width: 150px;
+  }  
