@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right, #00D0FF, #81FADA);
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    background: #EFEFEF;
+    border-radius: 8px;
+  }
+
+  .star {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.texto-1{
+  font-weight: bold;
+}
+
+.texto-2{
+  font-size: 16px;
+}
+
+.button-1{
+  background-color: #00D0FF;
+  margin-left: 0.5rem;
+}
+
+.button-2{
+  margin-left: 0.5rem;
+}
+
+.profile-menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  border-radius: 5px;
+  width: 200px;
+  display: none; /* Inicialmente oculto */
+  z-index: 1000;
+  background-color: #C6C6C6;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.profile-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.profile-menu a:last-child {
+  border-radius: 5px;
+  border-bottom: none;
+}
+
+.profile-menu a:hover {
+  border-radius: 5px;
+  background-color: #00D0FF;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #ccc;
+}
